@@ -1,10 +1,7 @@
-import 'package:course_plataform_ui/common/constants/color_const.dart';
 import 'package:course_plataform_ui/pages/splash/sections/splash_animate.dart';
 import 'package:course_plataform_ui/pages/splash/sections/splash_bottom.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:lottie/lottie.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

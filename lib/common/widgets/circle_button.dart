@@ -20,13 +20,19 @@ class CircleButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onPressed,
-      customBorder: CircleBorder(
-        side: BorderSide(color: borderColor ?? Colors.transparent, width: 3),
-      ),
-      child: CircleAvatar(
-        backgroundColor: bgColor ?? Colors.transparent,
-        radius: radius,
-        child: child,
+      customBorder: const CircleBorder(),
+      child: Container(
+        width: radius * 2,
+        height: radius * 2,
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          color: bgColor ?? Colors.transparent,
+          border: Border.all(
+            color: borderColor ?? Colors.transparent,
+            width: 3,
+          ),
+        ),
+        child: Center(child: child),
       ),
     );
   }
