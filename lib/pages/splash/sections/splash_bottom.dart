@@ -59,7 +59,7 @@ class SplashBottomState extends State<SplashBottom> {
                   size: 25, // Tamanho do ícone
                   color: ColorsConst.backgroundPrimary, // Cor do ícone
                 ),
-                onPressed: () => print('Clicar em avançar'),
+                onPressed: () => Navigator.pushNamed(context, '/home'),
               ),
             ),
           ],

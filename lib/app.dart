@@ -1,3 +1,4 @@
+import 'package:course_plataform_ui/pages/home/home_page.dart';
 import 'package:course_plataform_ui/pages/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Course Platform',
-      home: SplashPage(),
+      home: HomePage(),
     );
   }
 }
