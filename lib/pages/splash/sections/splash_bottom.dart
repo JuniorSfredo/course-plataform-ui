@@ -34,7 +34,7 @@ class SplashBottomState extends State<SplashBottom> {
                 wordSpacing: 1 / 5,
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
-                color: ColorsConst.darkBackgroundPrimary,
+                color: ColorsConst.darkText,
               ),
             ),
             SizedBox(height: 30),
@@ -55,11 +55,11 @@ class SplashBottomState extends State<SplashBottom> {
                 borderColor: ColorsConst.darkBackgroundPrimary,
                 radius: 30,
                 child: FaIcon(
-                  FontAwesomeIcons.arrowRight, // Ícone do Font Awesome
-                  size: 25, // Tamanho do ícone
-                  color: ColorsConst.backgroundPrimary, // Cor do ícone
+                  FontAwesomeIcons.arrowRight,
+                  size: 25,
+                  color: ColorsConst.darkText,
                 ),
-                onPressed: () => Navigator.pushNamed(context, '/home'),
+                onPressed: () => Navigator.pushNamed(context, '/onboard'),
               ),
             ),
           ],

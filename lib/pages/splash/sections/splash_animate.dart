@@ -1,3 +1,4 @@
+import 'package:course_plataform_ui/common/constants/color_const.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -19,7 +20,7 @@ class SplashAnimate extends StatelessWidget {
       height: shrink ? height * 0.5 : height,
       width: double.infinity,
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 26, 26, 70),
+        color: ColorsConst.darkBackgroundPrimary,
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(shrink ? 30 : 0),
           bottomRight: Radius.circular(shrink ? 30 : 0),
