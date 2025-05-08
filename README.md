@@ -13,8 +13,10 @@ Digital Academy is a Flutter application focused on technology education. It off
 
 ## Screenshots
 
-![Home Screen](assets/images/home_screen.png)
-![Detail Screen](assets/images/detail_screen.png)
+![Animated Screen 1](assets/screens/img.png)
+![Animated Screen 2](assets/screens/img_1.png)
+![Animated Screen 3](assets/screens/img_2.png)
+![Welcome Screen](assets/screens/img_3.png)
 
 ## Getting Started
 
@@ -83,8 +85,12 @@ The app provides smooth transitions between screens, using Lottie animations to 
 ## Dependencies
 
 - **flutter**: Core framework
-    - **lottie**: Library to display vector animations in `.json` format, creating modern transitions and visual effects
-    - **google_fonts**: Custom fonts with easy access to Google Fonts
+- **lottie**: Library to display vector animations in `.json` format, creating modern transitions and visual effects
+- **google_fonts**: Custom fonts with easy access to Google Fonts
+- **ottie**: Library to display vector animations in .json format, creating modern transitions and visual effects.
+- **font_awesome_flutter**: Set of icons from FontAwesome.
+- **flutter_native_splash**: Library for configuring a custom splash screen for your app.
+- **flutter_animate**: Library for adding modern and easy animations to widgets.
 
 ## License
 

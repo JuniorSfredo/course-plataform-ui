@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Fundo da splash screen -->
     <item>
-        <bitmap android:gravity="fill" android:src="@drawable/splash_background.png" />
+        <bitmap android:gravity="fill" android:src="@drawable/background"/>
     </item>
-    <!-- Logo da splash screen -->
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/splash.png" />
+        <bitmap android:gravity="center" android:src="@drawable/splash"/>
     </item>
 </layer-list>

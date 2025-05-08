@@ -93,11 +93,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 if (_currentPage == 2) // Último item
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.pushReplacement(
+                      Navigator.push(
                         context,
-                        MaterialPageRoute(
-                          builder: (context) => const HomePage(),
-                        ),
+                        MaterialPageRoute(builder: (context) => WelcomePage()),
                       );
                     },
                     child: const Text("Começar"),
